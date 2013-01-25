@@ -1,0 +1,1 @@
+./configure '--prefix=/opt/cadroot' '--with-pc-path=/opt/cadroot/lib64/pkgconfig:/opt/cadroot/lib/pkgconfig:/usr/lib64/pkgconfig:/usr/share/pkgconfig'
