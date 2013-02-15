@@ -1,1 +1,0 @@
-java -Xmx80M org.antlr.Tool Java.g
