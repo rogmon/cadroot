@@ -1,0 +1,10 @@
+prefix=/opt/cadroot
+exec_prefix=${prefix}
+libdir=${prefix}/lib64
+includedir=${prefix}/include
+
+Name: libev
+Description: high-performance event loop
+Version: 4.11
+Libs: -L${libdir} -lev
+Cflags: -I${includedir}
