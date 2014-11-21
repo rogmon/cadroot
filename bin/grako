@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-# EASY-INSTALL-SCRIPT: 'grako==3.0.1','grako'
-__requires__ = 'grako==3.0.1'
-import pkg_resources
-pkg_resources.run_script('grako==3.0.1', 'grako')
+# EASY-INSTALL-ENTRY-SCRIPT: 'grako==3.4.2','console_scripts','grako'
+__requires__ = 'grako==3.4.2'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('grako==3.4.2', 'console_scripts', 'grako')()
+    )
